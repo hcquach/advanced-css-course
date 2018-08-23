@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile:sass" : "node-sass sass/main.scss css/style.css -w"
+    "compile:sass": "node-sass sass/main.scss css/style.css"
   },
   "author": "Hien-Chanh QUACH",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "^4.9.3"
+    "node-sass": "^4.5.3",
+    "nodemon": "^1.18.3"
   }
 }
